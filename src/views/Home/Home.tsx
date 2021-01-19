@@ -7,6 +7,7 @@ import Container from 'components/layout/Container'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
+import TotalValueLockedCard from './components/TotalValueLockedCard'
 
 const Hero = styled.div`
   align-items: center;
@@ -40,11 +41,13 @@ const Subtitle = styled(Text)`
 `
 
 const Cards = styled(BaseLayout)`
-  align-items: start;
+  align-items: stretch;
+  justify-content: stretch;
   margin-bottom: 48px;
 
   & > div {
     grid-column: span 6;
+    width: 100%;
   }
 
   ${({ theme }) => theme.mediaQueries.sm} {
@@ -75,8 +78,9 @@ const Home: React.FC = () => {
         <Cards>
           <FarmStakingCard />
           <LotteryCard />
+          <CakeStats />
+          <TotalValueLockedCard />
         </Cards>
-        <CakeStats />
       </Container>
     </Page>
   )
