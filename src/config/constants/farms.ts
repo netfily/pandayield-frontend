@@ -22,7 +22,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BACKUP-BNB LP',
     lpAddresses: {
       97: '0x2a1e4CdDf51Ab15A90EDeb56C7d132ef7915cCa9',
-      56: '0x2a1e4CdDf51Ab15A90EDeb56C7d132ef7915cCa9',
+      56: '0x5EBee633F83B856843aFed8F232890699C914B09',
     },
     tokenSymbol: 'BACKUP',
     tokenAddresses: {
