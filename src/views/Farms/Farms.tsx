@@ -34,12 +34,12 @@ const Farms: React.FC = () => {
         let apy = backupPriceVsBNB.times(backupRewardPerYear).div(farm.lpTotalInQuoteToken)
 
         if (farm.quoteTokenSymbol === QuoteToken.BUSD) {
-          apy = backupPriceVsBNB.times(cakeRewardPerYear).div(farm.lpTotalInQuoteToken).times(bnbPrice)
+          apy = backupPriceVsBNB.times(backupRewardPerYear).div(farm.lpTotalInQuoteToken).times(bnbPrice)
         } else if (farm.quoteTokenSymbol === QuoteToken.BACKUP) {
           apy = backupRewardPerYear.div(farm.lpTotalInQuoteToken)
         } else if (farm.dual) {
           const backupApy =
-            farm && cakePriceVsBNB.times(cakeRewardPerBlock).times(BLOCKS_PER_YEAR).div(farm.lpTotalInQuoteToken)
+            farm && backupPriceVsBNB.times(backupRewardPerBlock).times(BLOCKS_PER_YEAR).div(farm.lpTotalInQuoteToken)
           const dualApy =
             farm.tokenPriceVsQuote &&
             new BigNumber(farm.tokenPriceVsQuote)
