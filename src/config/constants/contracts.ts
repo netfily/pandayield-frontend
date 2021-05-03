@@ -12,8 +12,8 @@ export default {
     56: '0xB594eB091B1cC711879Ce5379F5fd06C4b028833',
   },
   sousChef: {
-    97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-    56: '0x6ab8463a4185b80905e05a9ff80a2d6b714b9e95',
+    97: '0xed3aAB5d375722C56572E93f089b5b0E2F0DE4A5',
+    56: '0xed3aAB5d375722C56572E93f089b5b0E2F0DE4A5',
   },
   wbnb: {
     97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
