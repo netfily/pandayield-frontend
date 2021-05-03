@@ -12,7 +12,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'SUNI',
     tokenAddresses: {
       97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      56: '0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f',
+      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
