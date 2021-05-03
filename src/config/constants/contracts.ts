@@ -1,9 +1,9 @@
 export default {
-  cake: {
+  backup: {
     97: '0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7',
     56: '0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7',
   },
-  syrup: {
+  suni: {
     97: '0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f',
     56: '0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f',
   },
